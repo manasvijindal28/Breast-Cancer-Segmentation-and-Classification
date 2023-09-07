@@ -2,12 +2,12 @@
 
 ## Project overview
 
-This project aims to use the U-Net architecture for localizing tumor growth in medical images, specifically in cases where tumor boundaries are not easily discernible to the human eye. The U-Net model will be trained
-to generate masks highlighting the tumor area. Subsequently, the generated masks will be classified to determine whether the tumor is malignant, benign, or normal.
+This project aims to use the U-Net and Attention U_Net architecture for localizing tumor growth in medical images, specifically in cases where tumor boundaries are not easily discernible to the human eye. Both models will be trained
+to generate masks highlighting the tumor area to see which model gave better results. Subsequently, the generated masks will be classified to determine whether the tumor is malignant, benign, or normal.
 
 ## Introduction
 
-Tumor localization and classification are crucial tasks in medical image analysis. This project utilizes the U-Net architecture, a popular deep learning model for semantic segmentation tasks, to pinpoint the tumor 
+Tumor localization and classification are crucial tasks in medical image analysis. This project utilizes the U-Net and Attention U_Net architecture,popular deep learning models for semantic segmentation tasks, to pinpoint the tumor 
 regions in medical images. Once the localization is achieved, the generated mask images will be classified to determine the tumor's nature: malignant, benign, or normal.
 
 ## About Dataset
